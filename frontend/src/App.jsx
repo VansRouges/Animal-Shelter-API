@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <h1>Pet shelter</h1>
+        <Link to="/"><h1>Pet shelter</h1></Link>
 
         <Link to='/add'>
           <button>Add new pet</button>
